@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/info.rpy", line 201, in script
+    $ friendship += 1
+  File "game/info.rpy", line 201, in <module>
+    $ friendship += 1
+NameError: name 'friendship' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/info.rpy", line 201, in script
+    $ friendship += 1
+  File "C:\Users\garre\OneDrive\Documents\renpy-8.3.4-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\garre\OneDrive\Documents\renpy-8.3.4-sdk\renpy\python.py", line 1184, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/info.rpy", line 201, in <module>
+    $ friendship += 1
+NameError: name 'friendship' is not defined
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.5.25022501+nightly
+The Bar 1.0
+Sun Mar  9 13:09:53 2025
